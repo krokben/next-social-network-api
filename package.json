@@ -7,6 +7,10 @@
   "author": "Tommy Svensson",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-semistandard": "^12.0.1",
@@ -16,5 +20,9 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
   }
 }
