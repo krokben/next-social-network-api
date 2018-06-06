@@ -1,0 +1,10 @@
+{
+  "name": "next-social-network-api",
+  "version": "1.0.0",
+  "description": "API for next-social-network",
+  "main": "index.js",
+  "repository": "git@github.com:krokben/next-social-network-api.git",
+  "author": "Tommy Svensson",
+  "license": "MIT",
+  "private": false
+}
